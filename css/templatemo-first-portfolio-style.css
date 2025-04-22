@@ -757,6 +757,13 @@ strong {
   margin-bottom: 5px;
 }
 
+.projects-thumb {
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 
 /*---------------------------------------
   CONTACT              
