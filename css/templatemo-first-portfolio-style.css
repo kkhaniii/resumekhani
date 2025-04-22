@@ -605,7 +605,7 @@ strong {
   justify-content: space-around; /* หรือ space-between */
   align-items: center;
   flex-wrap: wrap;
-  gap: 50px; /* เพิ่มถ้าต้องการระยะห่างระหว่างรูป */
+  gap: 20px; /* เพิ่มถ้าต้องการระยะห่างระหว่างรูป */
   padding: 20px;
 }
 .clients-image:hover {
