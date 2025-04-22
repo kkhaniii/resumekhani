@@ -599,21 +599,17 @@ strong {
   CLIENTS              
 -----------------------------------------*/
 
-.clients-item-height {
-	height: 120px;
-}
+
 
 .clients-image {
-  display: block;
-  height: 80px;
-  width: auto;
-  margin: auto;
-  transition: all ease 0.2s;
+  display: flex;
+  justify-content: space-around; /* หรือ space-between */
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px; /* เพิ่มถ้าต้องการระยะห่างระหว่างรูป */
+  padding: 20px;
 }
 
-.clients-image:hover {
-  transform: scale(1.3);
-}
 
 
 /*---------------------------------------
